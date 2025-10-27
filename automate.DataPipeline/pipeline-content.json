@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "2df3849f-c38c-a768-49ab-8460df93574f",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "sessionTag": "highconcurrencysession1"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 100,
+          "retryIntervalInSeconds": 120,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Notebook1",
+        "dependsOn": []
+      }
+    ]
+  }
+}
